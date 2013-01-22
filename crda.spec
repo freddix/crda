@@ -1,12 +1,11 @@
 Summary:	Central Regulatory Domain Agent
 Name:		crda
-Version:	1.1.2
-Release:	2
+Version:	1.1.3
+Release:	1
 License:	ISC
 Group:		Networking/Daemons
 Source0:	http://wireless.kernel.org/download/crda/%{name}-%{version}.tar.bz2
-# Source0-md5:	5226f65aebacf94baaf820f8b4e06df4
-Patch0:		%{name}-nl3.patch
+# Source0-md5:	29579185e06a75675507527243d28e5c
 BuildRequires:	libgcrypt-devel
 BuildRequires:	libnl-devel
 BuildRequires:	python-M2Crypto
@@ -24,7 +23,6 @@ manually except if debugging udev issues.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 CFLAGS="%{rpmcflags} %{rpmcppflags}"
