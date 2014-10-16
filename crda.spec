@@ -1,7 +1,7 @@
 Summary:	Central Regulatory Domain Agent
 Name:		crda
 Version:	3.13
-Release:	1
+Release:	2
 License:	ISC
 Group:		Networking/Daemons
 Source0:	https://kernel.org/pub/software/network/crda/%{name}-%{version}.tar.xz
