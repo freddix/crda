@@ -1,11 +1,11 @@
 Summary:	Central Regulatory Domain Agent
 Name:		crda
-Version:	3.13
-Release:	2
+Version:	3.18
+Release:	1
 License:	ISC
 Group:		Networking/Daemons
 Source0:	https://kernel.org/pub/software/network/crda/%{name}-%{version}.tar.xz
-# Source0-md5:	66b1b0417c1ad19f0009a5c0c0c1aebc
+# Source0-md5:	0431fef3067bf503dfb464069f06163a
 Patch0:		%{name}-regdb.patch
 Patch1:		0001-crda-Fix-the-linking-order-to-avoid-compilation-erro.patch
 Patch2:		0002-crda-Add-DESTDIR-support-in-install-libreg-rules-in-.patch
